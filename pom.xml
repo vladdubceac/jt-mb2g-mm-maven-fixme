@@ -13,7 +13,6 @@
     <modules>
         <module>web-app</module>
         <module>jpa-entities</module>
-        <module>from-intellij</module>
         <module>web-api</module>
         <module>converters</module>
     </modules>
@@ -54,6 +53,7 @@
                     </execution>
                 </executions>
             </plugin>
+
             <plugin>
                 <artifactId>maven-enforcer-plugin</artifactId>
                 <executions>
